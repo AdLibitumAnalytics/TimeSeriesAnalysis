@@ -29,11 +29,11 @@ A time series data means that data is recorded at different time periods or inte
 
 ## Time Series Terminology<br/>
 
-1 Dependence- It refers to the association of two observations of the same variable at prior time periods.<br/>
+1 Dependence - It refers to the association of two observations of the same variable at prior time periods.<br/>
 
-2 Stationarity- It shows the mean value of the series that remains constant over the time period. If past effects accumulate and the values increase towards infinity then stationarity is not met.<br/>
+2 Stationarity - It shows the mean value of the series that remains constant over the time period. If past effects accumulate and the values increase towards infinity then stationarity is not met.<br/>
 
-3 Differencing- Differencing is used to make the series stationary and to control the auto-correlations. There may be some cases in time series analyses where we do not require differencing and over-differenced series can produce wrong estimates.<br/>
+3 Differencing - Differencing is used to make the series stationary and to control the auto-correlations. There may be some cases in time series analyses where we do not require differencing and over-differenced series can produce wrong estimates.<br/>
 
 4 Specification - It may involve the testing of the linear or non-linear relationships of dependent variables by using time series models such as ARIMA models.<br/>
 
