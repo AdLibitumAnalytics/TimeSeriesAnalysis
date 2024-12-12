@@ -13,11 +13,27 @@ D. Irregular Variation - These are the fluctuations in the time series data whic
 
 E. ETS Decomposition - ETS Decomposition is used to separate different components of a time series. The term ETS stands for Error, Trend and Seasonality. <br/>
 
+# Types of data <br/> 
 
-## A time series data means that data is recorded at different time periods or intervals. The time series data may be of three types: <br/>
+A time series data means that data is recorded at different time periods or intervals. The time series data may be of three types: <br/>
 
 1 Time series data - The observations of the values of a variable recorded at different points in time is called time series data. <br/>
 
 2 Cross sectional data - It is the data of one or more variables recorded at the same point in time. <br/>
 
 3 Pooled data- It is the combination of time series data and cross sectional data. <br/>
+
+
+## Time Series Terminology<br/>
+
+1 Dependence- It refers to the association of two observations of the same variable at prior time periods.<br/>
+
+2 Stationarity- It shows the mean value of the series that remains constant over the time period. If past effects accumulate and the values increase towards infinity then stationarity is not met.<br/>
+
+3 Differencing- Differencing is used to make the series stationary and to control the auto-correlations. There may be some cases in time series analyses where we do not require differencing and over-differenced series can produce wrong estimates.<br/>
+
+4 Specification - It may involve the testing of the linear or non-linear relationships of dependent variables by using time series models such as ARIMA models.<br/>
+
+5 Exponential Smoothing - Exponential smoothing in time series analysis predicts the one next period value based on the past and current value. It involves averaging of data such that the non-systematic components of each individual case or observation cancel out each other. The exponential smoothing method is used to predict the short term prediction.<br/>
+
+6 Curve fitting - Curve fitting regression in time series analysis is used when data is in a non-linear relationship.<br/>
