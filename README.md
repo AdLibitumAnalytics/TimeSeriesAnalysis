@@ -40,3 +40,15 @@ A time series data means that data is recorded at different time periods or inte
 5. Exponential Smoothing - Exponential smoothing in time series analysis predicts the one next period value based on the past and current value. It involves averaging of data such that the non-systematic components of each individual case or observation cancel out each other. The exponential smoothing method is used to predict the short term prediction.<br/>
 
 6. Curve fitting - Curve fitting regression in time series analysis is used when data is in a non-linear relationship.<br/>
+
+
+
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
